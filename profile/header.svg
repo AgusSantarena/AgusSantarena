@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#120A0B"/><stop offset="1" stop-color="#1F0F12"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EF4444"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#2c1a1d"/></pattern>
+    <style>
+      .cur{}
+      .m{font-family:'JetBrains Mono',Consolas,monospace}.s{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+      .cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}
+    </style>
+  </defs>
+  <rect width="900" height="220" rx="16" fill="url(#bg)"/>
+  <rect width="900" height="220" rx="16" fill="url(#dots)"/>
+  <circle cx="120" cy="230" r="150" fill="#EF4444" opacity=".18" style="filter:blur(50px)"/>
+  <circle cx="820" cy="-10" r="120" fill="#F472B6" opacity=".16" style="filter:blur(50px)"/>
+  <rect x="0" y="0" width="900" height="5" fill="url(#ac)"/>
+
+  <text x="48" y="60" class="m" font-size="15" fill="#EF4444">$ git log --author="Agustín"<tspan class="cur" fill="#F472B6"> ▍</tspan></text>
+  <text x="48" y="110" class="s" font-size="40" font-weight="700" fill="#FDECEC">Agustín Santarena</text>
+  <text x="48" y="146" class="s" font-size="18" fill="#BFA9AC">Desarrollador web y mobile · React · TypeScript · Python</text>
+  <text x="48" y="176" class="m" font-size="14" fill="#86696D">UTN — Facultad Regional San Rafael, Mendoza</text>
+
+  <g transform="translate(626 52)" class="s">
+    <rect width="230" height="120" rx="12" fill="#1A0F11" stroke="#3A2428"/>
+    <text x="14" y="24" font-size="11" fill="#86696D" letter-spacing="1.5">SPRINT BOARD</text>
+    <g font-size="10" fill="#BFA9AC">
+      <text x="14" y="46">TO DO</text><text x="86" y="46">DOING</text><text x="158" y="46">DONE</text>
+    </g>
+    <rect x="14" y="54" width="60" height="16" rx="4" fill="#3A2428"/><rect x="14" y="76" width="60" height="16" rx="4" fill="#3A2428"/>
+    <rect x="86" y="54" width="60" height="16" rx="4" fill="#EF4444" opacity=".85"/>
+    <rect x="158" y="54" width="60" height="16" rx="4" fill="#F472B6" opacity=".8"/><rect x="158" y="76" width="60" height="16" rx="4" fill="#F472B6" opacity=".8"/><rect x="158" y="98" width="60" height="16" rx="4" fill="#F472B6" opacity=".8"/>
+  </g>
+</svg>
